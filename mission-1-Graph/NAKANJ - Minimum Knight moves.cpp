@@ -20,7 +20,7 @@ vector<pair<int,int>> d ={
 
 // valid index
 // si -> 0 to 7 (a to h)
-// sj -> 0 to 8
+// sj -> 0 to 7
 bool valid(int i, int j)
 {
     if( i < 0 || i >= 8 || j < 0 || j >= 8)  return false;
